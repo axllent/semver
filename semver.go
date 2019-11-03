@@ -3,7 +3,6 @@
 // as in "v1.0.0", or "1.0.0".
 //
 // The general form of a semantic version string accepted by this package is
-//
 // MAJOR[.MINOR[.PATCH[-PRERELEASE][+BUILD]]]
 //
 // where square brackets indicate optional parts of the syntax;

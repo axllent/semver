@@ -1,5 +1,8 @@
 # SemVer
 
+[![GoDoc](https://godoc.org/github.com/axllent/semver?status.svg)](https://godoc.org/github.com/axllent/semver)
+[![Go Report Card](https://goreportcard.com/badge/github.com/axllent/semver)](https://goreportcard.com/report/github.com/axllent/semver)
+
 This semver package provides the ability to sort & compare [Semantic Versions](https://semver.org/) in Go. 
 
 This package follows Semantic Versioning 2.0.0 with one exception: It recognizes MAJOR and MAJOR.MINOR (with no prereleases or build suffixes) as shorthands for MAJOR.0.0 and MAJOR.MINOR.0.
