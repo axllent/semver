@@ -1,6 +1,6 @@
 # SemVer
 
-[![GoDoc](https://godoc.org/github.com/axllent/semver?status.svg)](https://godoc.org/github.com/axllent/semver)
+[![GoDoc](https://godoc.org/github.com/axllent/semver?status.svg)](https://pkg.go.dev/github.com/axllent/semver)
 [![Go Report Card](https://goreportcard.com/badge/github.com/axllent/semver)](https://goreportcard.com/report/github.com/axllent/semver)
 
 This semver package provides the ability to sort & compare [Semantic Versions](https://semver.org/) in Go. 
@@ -12,7 +12,7 @@ It is based on Golang's [internal](https://github.com/golang/mod/blob/master/sem
 - Compare semantic versions, including support for prereleases
 - Sort semantic versions (low to high, high to low)
 - Ignores any `v` prefix
-- See [docs](https://godoc.org/github.com/axllent/semver) for more features
+- See [docs](https://pkg.go.dev/github.com/axllent/semver) for more features
 
 If you require a full-blown solution then try [masterminds/semver](https://github.com/masterminds/semver).
 
