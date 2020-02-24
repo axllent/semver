@@ -7,7 +7,7 @@ This semver package provides the ability to sort & compare [Semantic Versions](h
 
 This package follows Semantic Versioning 2.0.0 with one exception: It recognizes MAJOR and MAJOR.MINOR (with no prereleases or build suffixes) as shorthands for MAJOR.0.0 and MAJOR.MINOR.0.
 
-It is based on Golang's [internal](https://github.com/golang/tools/blob/master/internal/semver/semver.go) semver functionality, and has the following features:
+It is based on Golang's [internal](https://github.com/golang/mod/blob/master/semver/semver.go) semver functionality, and has the following features:
 
 - Compare semantic versions, including support for prereleases
 - Sort semantic versions (low to high, high to low)
